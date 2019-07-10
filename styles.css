@@ -55,51 +55,123 @@ nav a {
 }
 
 /* Header */
+#header {
+  background: rgb(32, 101, 136);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container input {
+  height: 55px;
+  width: 900px;
+  margin: 5px 10px 10px 10px;
+  background: rgb(49, 68, 88);
+}
+
+.input-container .sign-up-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container .sign-up-logo span {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.text-img {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-img .text,
+.text-img .img {
+  width: 50%;
+} 
+
+.text-img .text p {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+
+.text-img img {
+  width: 500px;
+  height: 250px;
+}
+
 .btn-yellow {
   background: rgb(240, 146, 51);
 }
 
 /* Section 1 */
-#description {
+#collaboration {
   background: rgb(39, 53, 71);
   color: white;
   padding: 3em 0;
 }
 
-#description .content {
+#collaboration .content {
   width: 1000px;
   margin: 0 auto;
 }
 
-#description .content .images img {
+#collaboration .content .images img {
   height: 200px;
   width: 400px;
   margin-left: 3rem;
 }
 
-#description .content .images {
+#collaboration .content .images {
   float: left;
 }
 
-#description .content .words {
+#collaboration .content .words {
   float: right;
   margin-right: 4rem;
 }
 
-#description .content .words a {
+#collaboration .content .words a {
   text-decoration: none;
   color: white;
 }
 
-#description .content .words li {
+#collaboration .content .words li {
   margin-bottom: 1rem;
 }
 
-#description .content .words .btn-red {
+#collaboration .content .words .btn-red {
   background: rgb(203, 56, 55);
 }
 
 /* Section 2 */
+#description {
+  border: 1px solid white;
+  background-image: url("./images/forklift.svg");
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#description .content {
+  width: 400px;
+  margin: 50px 250px;
+}
+
+#description .content p {
+  margin-bottom: 10px;
+}
+
 .btn-blue{
   background: rgb(49, 68, 88);
 }
@@ -111,6 +183,7 @@ nav a {
   color: rgb(135, 145, 156);
   background: white;
   text-align: center;
+  padding-top: 20px;
 }
 
 #activities .header_and_desc,
